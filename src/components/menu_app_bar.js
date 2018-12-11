@@ -27,7 +27,7 @@ const styles = {
   },
   scroll: {
    width: '100%',
-   position: 'sticky',
+   position: 'relative',
    marginTop: -20,
  },
 };
@@ -60,7 +60,7 @@ class MenuAppBar extends React.Component {
           <div className="container">
               <div className={classes.root}>
               <div className={classes.scroll}>
-                <AppBar className="app-bar" className="bar" position="relative">
+                <AppBar className="app-bar" className="bar" position="sticky">
                   <Toolbar className="app-bar">
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
                       <MenuIcon />

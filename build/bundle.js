@@ -78117,7 +78117,7 @@
 	  },
 	  scroll: {
 	    width: '100%',
-	    position: 'sticky',
+	    position: 'relative',
 	    marginTop: -20
 	  }
 	};
@@ -78174,7 +78174,7 @@
 	              { className: classes.scroll },
 	              _react2.default.createElement(
 	                _AppBar2.default,
-	                (_React$createElement = { className: 'app-bar' }, _defineProperty(_React$createElement, 'className', 'bar'), _defineProperty(_React$createElement, 'position', 'relative'), _React$createElement),
+	                (_React$createElement = { className: 'app-bar' }, _defineProperty(_React$createElement, 'className', 'bar'), _defineProperty(_React$createElement, 'position', 'sticky'), _React$createElement),
 	                _react2.default.createElement(
 	                  _Toolbar2.default,
 	                  { className: 'app-bar' },
