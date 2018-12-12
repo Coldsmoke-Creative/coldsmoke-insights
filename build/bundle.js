@@ -78168,10 +78168,10 @@
 	          { className: 'container' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: classes.root },
+	            { style: classes.root },
 	            _react2.default.createElement(
 	              'div',
-	              { className: classes.scroll },
+	              { style: classes.scroll },
 	              _react2.default.createElement(
 	                _AppBar2.default,
 	                (_React$createElement = { className: 'app-bar' }, _defineProperty(_React$createElement, 'className', 'bar'), _defineProperty(_React$createElement, 'position', 'sticky'), _React$createElement),
