@@ -78117,7 +78117,7 @@
 	  },
 	  scroll: {
 	    width: '100%',
-	    position: 'sticky',
+	    position: 'fixed',
 	    marginTop: -20
 	  }
 	};
@@ -78168,13 +78168,13 @@
 	          { className: 'container' },
 	          _react2.default.createElement(
 	            'div',
-	            { style: styles.root },
+	            { style: { root: styles.root } },
 	            _react2.default.createElement(
 	              'div',
-	              { style: styles.scroll },
+	              { style: { scroll: styles.scroll } },
 	              _react2.default.createElement(
 	                _AppBar2.default,
-	                (_React$createElement = { className: 'app-bar' }, _defineProperty(_React$createElement, 'className', 'bar'), _defineProperty(_React$createElement, 'position', 'sticky'), _React$createElement),
+	                (_React$createElement = { className: 'app-bar' }, _defineProperty(_React$createElement, 'className', 'bar'), _defineProperty(_React$createElement, 'position', 'fixed'), _React$createElement),
 	                _react2.default.createElement(
 	                  _Toolbar2.default,
 	                  { className: 'app-bar' },
