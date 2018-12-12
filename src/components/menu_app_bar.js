@@ -58,8 +58,8 @@ class MenuAppBar extends React.Component {
     return (
       <div className="header">
           <div className="container">
-              <div style={classes.root}>
-              <div style={classes.scroll}>
+              <div style={styles.root}>
+              <div style={styles.scroll}>
                 <AppBar className="app-bar" className="bar" position="sticky">
                   <Toolbar className="app-bar">
                     <IconButton className={classes.menuButton} color="inherit" aria-label="Menu">
